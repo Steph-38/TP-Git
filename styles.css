@@ -1,0 +1,36 @@
+body{
+    background-image: url("../ressources/eau.jpg");
+}
+
+p{
+    text-align: center;
+    border: 3px black solid;
+    background: yellow;
+    width: 450px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 12px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#premierVoeux{
+    display: none;
+    background: orange;
+    border: dashed;
+}
+
+#secondVoeux{
+    display: none;
+    background: blue;
+    border: white groove;
+    color: white;
+}
+
+#troisiemeVoeux{
+    display: none;
+    background: green;
+    border: red outset;
+    color: rgb(73, 18, 18);
+}

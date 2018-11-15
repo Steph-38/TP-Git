@@ -14,8 +14,7 @@ $(function() {
 
                             // Dernier click sur le troisième veux
                             $('#troisiemeVoeux').on('click', function() {
-                                $('#son')[0].play();
-                                $('body').css('background', 'red');
+                                $('body').css('background', 'rgb(150, 20, 20)');
                                 $('p').html('Happy Birthday !!!');
                             });
                         });
